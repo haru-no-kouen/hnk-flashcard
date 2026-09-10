@@ -221,6 +221,7 @@ function navigate(path) {
 
 function renderRoute() {
   const parts = parseRoute();
+  updateFooterActiveState(parts);
 
   if (parts.length === 0) {
     return renderDashboard();
@@ -801,12 +802,17 @@ function bindRowClicks(container) {
    16. FOOTER NAV (home / setelan)
    ========================================================= */
 
+function updateFooterActiveState(parts) {
+  const navButtons = document.querySelectorAll('.nav-btn');
+  navButtons.forEach((btn) => btn.classList.remove('active'));
+  const homeBtn = document.querySelector('.nav-btn[data-nav="home"]');
+  if (parts.length === 0 && homeBtn) homeBtn.classList.add('active');
+}
+
 function setupFooterNav() {
   const navButtons = document.querySelectorAll('.nav-btn');
   navButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
-      navButtons.forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
       if (btn.dataset.nav === 'home') navigate('');
       // TODO: implementasikan halaman setelan
     });

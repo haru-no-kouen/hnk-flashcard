@@ -45,6 +45,7 @@ button {
 
 .view-root {
   flex: 1;
+  padding-bottom: 84px; /* beri ruang supaya konten tidak ketutup footer fixed */
 }
 
 /* ---------- Header umum ---------- */
@@ -444,8 +445,15 @@ button {
   justify-content: center;
   gap: 48px;
   padding: 14px 0 22px;
-  margin-top: 24px;
   border-top: 1px solid var(--border);
+  background: var(--cream);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 420px;
+  margin: 0 auto;
+  z-index: 10;
 }
 
 .nav-btn {
