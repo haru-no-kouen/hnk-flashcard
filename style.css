@@ -1,0 +1,469 @@
+:root {
+  --cream: #FAF6EF;
+  --paper: #FFFFFF;
+  --ink: #33302B;
+  --ink-soft: #6E6A62;
+  --ink-muted: #9A968C;
+  --sakura: #E38CA1;
+  --sakura-bg: #FCEEF1;
+  --moss: #6E8F5B;
+  --moss-bg: #EEF3E8;
+  --sumi: #4A473F;
+  --sumi-bg: #EFEDE7;
+  --amber: #C9862F;
+  --amber-bg: #F8EDDD;
+  --border: rgba(51, 48, 43, 0.1);
+  --radius-lg: 20px;
+  --radius-md: 12px;
+  --radius-sm: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+.app {
+  max-width: 420px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20px 0;
+}
+
+.view-root {
+  flex: 1;
+}
+
+/* ---------- Header umum ---------- */
+
+.app-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.app-title {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.app-subtitle {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 6px 0 0;
+}
+
+.section-label {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0 0 12px 2px;
+}
+
+/* ---------- Breadcrumb + back (screen bertingkat) ---------- */
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.breadcrumb svg {
+  width: 18px;
+  height: 18px;
+}
+
+.screen-title {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 6px 0 2px;
+}
+
+.screen-title .jp-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--ink-soft);
+  margin-left: 6px;
+}
+
+.screen-subtitle {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0 0 16px;
+}
+
+/* ---------- Dashboard: grid kategori ---------- */
+
+.category-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.category-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.category-card:hover { transform: translateY(-2px); }
+.category-card:active { transform: translateY(0); }
+
+.category-icon { width: 26px; height: 26px; margin-bottom: 4px; }
+
+.category-jp {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.category-label { font-size: 13px; color: var(--ink-soft); }
+
+.category-level {
+  font-size: 11px;
+  color: var(--ink-soft);
+  background: var(--cream);
+  border-radius: var(--radius-sm);
+  padding: 3px 10px;
+  margin-top: 4px;
+}
+
+.cat-kosakata .category-icon { color: var(--sakura); }
+.cat-kosakata .category-level { background: var(--sakura-bg); color: #A0455C; }
+.cat-kanji .category-icon { color: var(--sumi); }
+.cat-kanji .category-level { background: var(--sumi-bg); color: var(--sumi); }
+.cat-tatabahasa .category-icon { color: var(--moss); }
+.cat-tatabahasa .category-level { background: var(--moss-bg); color: #4C6640; }
+.cat-latihan .category-icon { color: var(--amber); }
+.cat-latihan .category-level { background: var(--amber-bg); color: #8F5F1F; }
+
+/* ---------- Segmented tab (JLPT / SSW) ---------- */
+
+.segmented {
+  display: flex;
+  background: var(--sumi-bg);
+  border-radius: var(--radius-sm);
+  padding: 3px;
+  margin: 14px 0 16px;
+}
+
+.segmented button {
+  flex: 1;
+  padding: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  background: transparent;
+  color: var(--ink-soft);
+}
+
+.segmented button.active {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* ---------- List baris (level / jenis kata / sektor) ---------- */
+
+.row-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.row-item-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.row-item svg.row-icon { width: 20px; height: 20px; flex-shrink: 0; }
+
+.row-item .row-title { margin: 0; font-size: 15px; font-weight: 500; }
+.row-item .row-subtitle { margin: 1px 0 0; font-size: 12px; color: var(--ink-soft); }
+
+.row-item svg.chevron { width: 18px; height: 18px; color: var(--ink-muted); flex-shrink: 0; }
+
+.hint-text {
+  text-align: center;
+  font-size: 12px;
+  color: var(--ink-muted);
+  margin: 12px 0 0;
+}
+
+/* ---------- Grid day (chip) ---------- */
+
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.day-chip {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.day-chip .day-title { margin: 0; font-size: 14px; font-weight: 500; }
+.day-chip .day-count { margin: 2px 0 0; font-size: 11px; color: var(--ink-muted); }
+
+/* ---------- Flashcard ---------- */
+
+.flashcard-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.flashcard {
+  perspective: 1400px;
+  min-height: 300px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard-inner.no-anim {
+  transition: none;
+}
+
+.flashcard-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.flashcard-face.flashcard-back-face {
+  transform: rotateY(180deg);
+}
+
+.flashcard .front-kanji {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.flashcard-back {
+  width: 100%;
+  text-align: left;
+}
+
+.flashcard-back .reading {
+  margin: 0 0 4px;
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+
+.flashcard-back .arti {
+  margin: 0 0 16px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.flashcard-back .example-jp {
+  margin: 0 0 2px;
+  font-size: 14px;
+}
+
+.flashcard-back .example-id {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+/* ---------- Flashcard belakang khusus kanji ---------- */
+
+.flashcard-back-kanji {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flashcard-back-kanji .kanji-arti {
+  margin: 0 0 14px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.yomi-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.yomi-block { text-align: center; }
+.yomi-block.yomi-kun { margin-left: 36px; }
+
+.yomi-label {
+  margin: 0;
+  font-size: 11px;
+  color: var(--ink-muted);
+}
+
+.yomi-value {
+  margin: 2px 0 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.example-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 14px;
+  width: 100%;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  text-align: left;
+}
+
+.example-cell .example-word { margin: 0; font-size: 14px; }
+.example-cell .example-reading { margin: 1px 0 0; font-size: 11px; color: var(--ink-soft); }
+.example-cell .example-arti-small { margin: 1px 0 0; font-size: 11px; color: var(--ink-muted); font-style: italic; }
+
+.flip-hint {
+  text-align: center;
+  font-size: 11px;
+  color: var(--ink-muted);
+  margin: 8px 0 0;
+}
+
+.flashcard-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.nav-circle-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--paper);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+}
+
+.nav-circle-btn svg { width: 20px; height: 20px; }
+
+.nav-counter {
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+/* ---------- Placeholder "segera" ---------- */
+
+.coming-soon {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-soft);
+}
+
+.coming-soon .jp { font-family: 'Zen Maru Gothic', sans-serif; font-size: 26px; margin-bottom: 6px; }
+
+/* ---------- Footer nav ---------- */
+
+.app-footer {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 14px 0 22px;
+  margin-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  color: var(--ink-soft);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.nav-btn svg { width: 22px; height: 22px; }
+.nav-btn.active { color: var(--ink); }
+
+@media (max-width: 380px) {
+  .category-jp { font-size: 18px; }
+}
