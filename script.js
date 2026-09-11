@@ -202,6 +202,11 @@ const ICONS = {
   box: `<svg class="row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8l8-4 8 4-8 4-8-4z"/><path d="M4 8v8l8 4 8-4V8M12 12v8"/></svg>`,
   sector: `<svg class="row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="4" width="16" height="16" rx="3"/></svg>`,
   home: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-5H10v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9z"/></svg>`,
+  // ikon khusus 4 kartu dashboard, biar tiap kategori beda bentuk
+  bubble: `<svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 4h8a2 2 0 0 1 2 2v9l-4 4H8a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M9 9h6M9 13h4"/></svg>`,
+  kanjiGrid: `<svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 4v16M18 4v16M4 9h5M15 9h5M4 15h5M15 15h5"/></svg>`,
+  list: `<svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h10M4 18h13"/></svg>`,
+  target: `<svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.2"/></svg>`,
 };
 
 /* =========================================================
@@ -280,25 +285,25 @@ function renderDashboard() {
     <p class="section-label">Pilih kategori</p>
     <div class="category-grid">
       <button class="category-card cat-kosakata" data-go="kotoba">
-        ${iconWrap('box')}
+        ${ICONS.bubble}
         <span class="category-jp">言葉</span>
         <span class="category-label">Kosakata</span>
         <span class="category-level">JLPT &ndash; SSW</span>
       </button>
       <button class="category-card cat-kanji" data-go="kanji">
-        ${iconWrap('box')}
+        ${ICONS.kanjiGrid}
         <span class="category-jp">漢字</span>
         <span class="category-label">Kanji</span>
         <span class="category-level">N5 &ndash; N1</span>
       </button>
       <button class="category-card cat-tatabahasa" data-go="tatabahasa">
-        ${iconWrap('box')}
+        ${ICONS.list}
         <span class="category-jp">文法</span>
         <span class="category-label">Tata bahasa</span>
         <span class="category-level">N5 &ndash; N1</span>
       </button>
       <button class="category-card cat-latihan" data-go="latihan">
-        ${iconWrap('box')}
+        ${ICONS.target}
         <span class="category-jp">練習</span>
         <span class="category-label">Latihan &amp; kuis</span>
         <span class="category-level">Campuran</span>
@@ -309,11 +314,6 @@ function renderDashboard() {
   viewRoot.querySelectorAll('[data-go]').forEach((el) => {
     el.addEventListener('click', () => navigate(el.dataset.go));
   });
-}
-
-// icon generik dashboard (dibuat class category-icon lewat wrapper)
-function iconWrap(name) {
-  return ICONS[name].replace('class="row-icon"', 'class="category-icon"');
 }
 
 /* =========================================================
