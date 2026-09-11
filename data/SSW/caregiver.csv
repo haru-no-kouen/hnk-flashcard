@@ -1,5 +1,270 @@
-grup,kosakata,furigana,arti,contoh1,arti_contoh1,contoh2,arti_contoh2
-bagian-tubuh,頭,あたま,kepala,頭が痛いです。,Kepala saya sakit.,頭を洗ってください。,Tolong cuci kepalanya.
-bagian-tubuh,手,て,tangan,手を洗ってください。,Tolong cuci tangan.,手が痛いです。,Tangan saya sakit.
-penyakit,熱,ねつ,demam,熱があります。,Ada demam.,熱を測りましょう。,Ayo ukur suhu badannya.
-penyakit,風邪,かぜ,flu,風邪をひきました。,Saya kena flu.,風邪に気をつけてください。,Tolong hati-hati flu.
+﻿grup,kosakata,furigana,arti,contoh1,arti_contoh1,contoh2,arti_contoh2
+Tubuh,髪の毛,かみのけ,RAMBUT,入浴後、利用者の髪の毛を乾かします。,"Setelah mandi, keringkan rambut pengguna layanan.",清潔を保つため、髪の毛を整えます。,"Untuk menjaga kebersihan, rapikan rambut pengguna layanan."
+Tubuh,首,くび,LEHER,利用者の首に異常がないか確認します。,Periksa apakah ada kelainan pada leher pengguna layanan.,清潔を保つため、利用者の首をきれいにします。,"Untuk menjaga kebersihan, bersihkan leher pengguna layanan."
+Tubuh,わきの下,わきのした,KETIAK,利用者のわきの下に異常がないか確認します。,Periksa apakah ada kelainan pada ketiak pengguna layanan.,清潔を保つため、利用者のわきの下をきれいにします。,"Untuk menjaga kebersihan, bersihkan ketiak pengguna layanan."
+Tubuh,腕,うで,LENGAN,利用者の腕に異常がないか確認します。,Periksa apakah ada kelainan pada lengan pengguna layanan.,清潔を保つため、利用者の腕をきれいにします。,"Untuk menjaga kebersihan, bersihkan lengan pengguna layanan."
+Tubuh,肘,ひじ,SIKU,利用者の肘に異常がないか確認します。,Periksa apakah ada kelainan pada siku pengguna layanan.,清潔を保つため、利用者の肘をきれいにします。,"Untuk menjaga kebersihan, bersihkan siku pengguna layanan."
+Tubuh,臍,へそ,PUSAR,利用者の臍に異常がないか確認します。,Periksa apakah ada kelainan pada pusar pengguna layanan.,清潔を保つため、利用者の臍をきれいにします。,"Untuk menjaga kebersihan, bersihkan pusar pengguna layanan."
+Tubuh,腰,こし,PINGGANG,利用者の腰に異常がないか確認します。,Periksa apakah ada kelainan pada pinggang pengguna layanan.,清潔を保つため、利用者の腰をきれいにします。,"Untuk menjaga kebersihan, bersihkan pinggang pengguna layanan."
+Tubuh,背中,せなか,PUNGGUNG,利用者の背中に異常がないか確認します。,Periksa apakah ada kelainan pada punggung pengguna layanan.,清潔を保つため、利用者の背中をきれいにします。,"Untuk menjaga kebersihan, bersihkan punggung pengguna layanan."
+Tubuh,頭,あたま,KEPALA,利用者の頭に異常がないか確認します。,Periksa apakah ada kelainan pada kepala pengguna layanan.,清潔を保つため、利用者の頭をきれいにします。,"Untuk menjaga kebersihan, bersihkan kepala pengguna layanan."
+Tubuh,肩,かた,BAHU,利用者の肩に異常がないか確認します。,Periksa apakah ada kelainan pada bahu pengguna layanan.,清潔を保つため、利用者の肩をきれいにします。,"Untuk menjaga kebersihan, bersihkan bahu pengguna layanan."
+Tubuh,胸,むね,DADA,利用者の胸に異常がないか確認します。,Periksa apakah ada kelainan pada dada pengguna layanan.,清潔を保つため、利用者の胸をきれいにします。,"Untuk menjaga kebersihan, bersihkan dada pengguna layanan."
+Tubuh,腹,はら,PERUT,利用者の腹に異常がないか確認します。,Periksa apakah ada kelainan pada perut pengguna layanan.,清潔を保つため、利用者の腹をきれいにします。,"Untuk menjaga kebersihan, bersihkan perut pengguna layanan."
+Tubuh,殿部（尻）,でんぶ（しり）,PANTAT,利用者の殿部（尻）に異常がないか確認します。,Periksa apakah ada kelainan pada pantat pengguna layanan.,清潔を保つため、利用者の殿部（尻）をきれいにします。,"Untuk menjaga kebersihan, bersihkan pantat pengguna layanan."
+Kepala,額,ひたい,DAHI,利用者の額に異常がないか確認します。,Periksa apakah ada kelainan pada dahi pengguna layanan.,清潔を保つため、利用者の額をきれいにします。,"Untuk menjaga kebersihan, bersihkan dahi pengguna layanan."
+Kepala,まゆ毛,まゆげ,ALIS,利用者のまゆ毛に異常がないか確認します。,Periksa apakah ada kelainan pada alis pengguna layanan.,清潔を保つため、利用者のまゆ毛をきれいにします。,"Untuk menjaga kebersihan, bersihkan alis pengguna layanan."
+Kepala,まつ毛,まつげ,BULU MATA,利用者のまつ毛に異常がないか確認します。,Periksa apakah ada kelainan pada bulu mata pengguna layanan.,清潔を保つため、利用者のまつ毛をきれいにします。,"Untuk menjaga kebersihan, bersihkan bulu mata pengguna layanan."
+Kepala,鼻,はな,HIDUNG,利用者の鼻に異常がないか確認します。,Periksa apakah ada kelainan pada hidung pengguna layanan.,清潔を保つため、利用者の鼻をきれいにします。,"Untuk menjaga kebersihan, bersihkan hidung pengguna layanan."
+Kepala,口,くち,MULUT,食後に利用者の口の中を確認します。,"Setelah makan, periksa bagian dalam mulut pengguna layanan.",口腔ケアのあと、口の周りをきれいに拭きます。,"Setelah perawatan mulut, bersihkan area sekitar mulut."
+Kepala,歯,は,GIGI,毎食後、利用者の歯を磨く介助をします。,"Setelah setiap makan, bantu pengguna layanan menyikat gigi.",歯に食べ物が残っていないか確認します。,Periksa apakah masih ada makanan yang tersisa di gigi.
+Kepala,顎,あご,DAGU,利用者の顎に異常がないか確認します。,Periksa apakah ada kelainan pada dagu pengguna layanan.,清潔を保つため、利用者の顎をきれいにします。,"Untuk menjaga kebersihan, bersihkan dagu pengguna layanan."
+Kepala,顔,かお,WAJAH/MUKA,利用者の顔に異常がないか確認します。,Periksa apakah ada kelainan pada wajah/muka pengguna layanan.,清潔を保つため、利用者の顔をきれいにします。,"Untuk menjaga kebersihan, bersihkan wajah/muka pengguna layanan."
+Kepala,目,め,MATA,利用者の目に異常がないか確認します。,Periksa apakah ada kelainan pada mata pengguna layanan.,目が疲れている様子なら、少し休んでもらいます。,"Jika mata terlihat lelah, minta pengguna layanan beristirahat sebentar."
+Kepala,耳,みみ,TELINGA,利用者の耳に異常がないか確認します。,Periksa apakah ada kelainan pada telinga pengguna layanan.,耳の周りをやさしく清拭します。,Bersihkan area sekitar telinga dengan lembut.
+Kepala,頬,ほほ,PIPI,利用者の頬に異常がないか確認します。,Periksa apakah ada kelainan pada pipi pengguna layanan.,清潔を保つため、利用者の頬をきれいにします。,"Untuk menjaga kebersihan, bersihkan pipi pengguna layanan."
+Kepala,唇,くちびる,BIBIR,利用者の唇に異常がないか確認します。,Periksa apakah ada kelainan pada bibir pengguna layanan.,清潔を保つため、利用者の唇をきれいにします。,"Untuk menjaga kebersihan, bersihkan bibir pengguna layanan."
+Kepala,喉,のど,TENGGOROKAN,水を飲んだあと、喉に違和感がないか確認します。,"Setelah minum air, periksa apakah ada rasa tidak nyaman di tenggorokan.",利用者が喉の痛みを訴えたので、看護師に報告します。,"Karena pengguna layanan mengeluhkan sakit tenggorokan, laporkan kepada perawat."
+Bagian Tangan,手,て,TANGAN,利用者の手を清潔に洗います。,Cuci tangan pengguna layanan sampai bersih.,食事の前に手を消毒します。,"Sebelum makan, bantu pengguna layanan membersihkan tangan."
+Bagian Tangan,手の甲,てのこう,PUNGGUNG TANGAN,利用者の手の甲に異常がないか確認します。,Periksa apakah ada kelainan pada punggung tangan pengguna layanan.,清潔を保つため、利用者の手の甲をきれいにします。,"Untuk menjaga kebersihan, bersihkan punggung tangan pengguna layanan."
+Bagian Tangan,手のひら,てのひら,TELAPAK TANGAN,利用者の手のひらに異常がないか確認します。,Periksa apakah ada kelainan pada telapak tangan pengguna layanan.,清潔を保つため、利用者の手のひらをきれいにします。,"Untuk menjaga kebersihan, bersihkan telapak tangan pengguna layanan."
+Bagian Tangan,手首,てくび,PERGELANGAN TANGAN,利用者の手首に異常がないか確認します。,Periksa apakah ada kelainan pada pergelangan tangan pengguna layanan.,清潔を保つため、利用者の手首をきれいにします。,"Untuk menjaga kebersihan, bersihkan pergelangan tangan pengguna layanan."
+Bagian Tangan,指,ゆび,JARI,利用者の指に異常がないか確認します。,Periksa apakah ada kelainan pada jari pengguna layanan.,清潔を保つため、利用者の指をきれいにします。,"Untuk menjaga kebersihan, bersihkan jari pengguna layanan."
+Bagian Tangan,指先,ゆびさき,UJUNG JARI,指先に傷がないか確認します。,Periksa apakah ada luka pada ujung jari.,細かい作業をするときは、指先に注意します。,"Saat melakukan pekerjaan kecil, perhatikan ujung jari."
+Bagian Tangan,爪,つめ,KUKU,長くなった利用者の爪を切ります。,Potong kuku pengguna layanan yang sudah panjang.,爪の間に汚れがないか確認します。,Periksa apakah ada kotoran di sela-sela kuku.
+Bagian Tangan,親指,おやゆび,JARI JEMPOL,親指を使ってボタンを留めます。,Gunakan ibu jari untuk memasang kancing.,利用者の親指に痛みがないか確認します。,Periksa apakah ada rasa sakit pada ibu jari pengguna layanan.
+Bagian Tangan,人差し指,ひとさしゆび,JARI TELUNJUK,人差し指でナースコールを押してもらいます。,Minta pengguna layanan menekan nurse call dengan jari telunjuk.,人差し指に痛みがないか確認します。,Periksa apakah ada rasa sakit pada jari telunjuk.
+Bagian Tangan,中指,なかゆび,JARI TENGAH,利用者の中指に異常がないか確認します。,Periksa apakah ada kelainan pada jari tengah pengguna layanan.,清潔を保つため、利用者の中指をきれいにします。,"Untuk menjaga kebersihan, bersihkan jari tengah pengguna layanan."
+Bagian Tangan,薬指,くすりゆび,JARI MANIS,利用者の薬指に異常がないか確認します。,Periksa apakah ada kelainan pada jari manis pengguna layanan.,清潔を保つため、利用者の薬指をきれいにします。,"Untuk menjaga kebersihan, bersihkan jari manis pengguna layanan."
+Bagian Tangan,小指,こゆび,JARI KELINGKING,利用者の小指に異常がないか確認します。,Periksa apakah ada kelainan pada jari kelingking pengguna layanan.,清潔を保つため、利用者の小指をきれいにします。,"Untuk menjaga kebersihan, bersihkan jari kelingking pengguna layanan."
+Bagian Kaki,太もも,ふともも,PAHA,利用者の太ももに痛みがないか確認します。,Periksa apakah ada rasa sakit pada paha pengguna layanan.,移乗介助では太ももに無理な力をかけないようにします。,"Saat membantu perpindahan, jangan memberikan tekanan berlebihan pada paha."
+Bagian Kaki,脹脛,ふくらはぎ,BETIS,利用者の脹脛に異常がないか確認します。,Periksa apakah ada kelainan pada betis pengguna layanan.,清潔を保つため、利用者の脹脛をきれいにします。,"Untuk menjaga kebersihan, bersihkan betis pengguna layanan."
+Bagian Kaki,足の付け根,あしのつけね,PANGKAL PAHA/ SELANGKANGAN,利用者の足の付け根に異常がないか確認します。,Periksa apakah ada kelainan pada pangkal paha/ selangkangan pengguna layanan.,清潔を保つため、利用者の足の付け根をきれいにします。,"Untuk menjaga kebersihan, bersihkan pangkal paha/ selangkangan pengguna layanan."
+Bagian Kaki,足首,あしくび,PERGELANGAN KAKI,歩行前に足首の動きを確認します。,"Sebelum berjalan, periksa gerakan pergelangan kaki.",足首に腫れがないか確認します。,Periksa apakah ada pembengkakan pada pergelangan kaki.
+Bagian Kaki,膝,ひざ,LUTUT,立ち上がる前に膝の状態を確認します。,"Sebelum berdiri, periksa kondisi lutut.",膝に痛みがある場合は、無理に歩かせません。,"Jika lutut terasa sakit, jangan memaksa pengguna layanan berjalan."
+Bagian Kaki,足底（足の裏）,そくてい（あしのうら）,TELAPAK KAKI (DASAR KAKI),利用者の足底（足の裏）に異常がないか確認します。,Periksa apakah ada kelainan pada telapak kaki (dasar kaki) pengguna layanan.,清潔を保つため、利用者の足底（足の裏）をきれいにします。,"Untuk menjaga kebersihan, bersihkan telapak kaki (dasar kaki) pengguna layanan."
+Bagian Kaki,つま先,つまさき,UJUNG JARI KAKI,歩くときはつま先が床に引っかからないように注意します。,"Saat berjalan, perhatikan agar ujung jari kaki tidak tersangkut di lantai.",靴を履く前に、つま先に痛みがないか確認します。,"Sebelum memakai sepatu, periksa apakah ada rasa sakit pada ujung jari kaki."
+Bagian Kaki,踵,かかと,TUMIT,歩行介助では踵がしっかり床につくようにします。,"Saat membantu berjalan, pastikan tumit menapak dengan baik di lantai.",踵に傷がないか確認します。,Periksa apakah ada luka pada tumit.
+Bagian Dalam,筋肉,きんにく,OTOT,運動の前に筋肉を軽く動かします。,"Sebelum berolahraga, gerakkan otot secara perlahan.",筋肉の状態を確認しながらリハビリを行います。,Lakukan rehabilitasi sambil memeriksa kondisi otot.
+Bagian Dalam,骨,ほね,TULANG,転倒した利用者は骨に異常がないか確認します。,"Jika pengguna layanan jatuh, periksa apakah ada kelainan pada tulang.",骨を丈夫に保つため、適度な運動をします。,Lakukan olahraga secukupnya untuk menjaga tulang tetap kuat.
+Bagian Dalam,関節,かんせつ,SENDI,関節を無理に動かさないようにします。,Jangan menggerakkan sendi secara paksa.,リハビリでは関節の動きを確認します。,"Saat rehabilitasi, periksa pergerakan sendi."
+Bagian Dalam,心臓,しんぞう,JANTUNG,運動中は心臓に負担をかけすぎないようにします。,"Saat berolahraga, jangan memberikan beban berlebihan pada jantung.",心臓の状態について医師に相談します。,Konsultasikan kondisi jantung dengan dokter.
+Bagian Dalam,血液,けつえき,DARAH,検査のために血液を採取します。,Ambil darah untuk pemeriksaan.,血液検査の結果を医師に確認します。,Periksa hasil tes darah kepada dokter.
+Bagian Dalam,血管,けっかん,PEMBULUH DARAH,血管の状態を検査します。,Periksa kondisi pembuluh darah.,血管に負担をかけないように注意します。,Berhati-hatilah agar tidak memberikan beban pada pembuluh darah.
+Bagian Dalam,胃,い,LAMBUNG,食後すぐに横になると胃に負担がかかります。,Berbaring segera setelah makan dapat membebani lambung.,胃の調子が悪いときは、看護師に相談します。,"Jika kondisi lambung tidak baik, konsultasikan kepada perawat."
+Area Bed,ベッド,,TEMPAT TIDUR,利用者が使いやすいようにベッドを整えます。,Atur tempat tidur agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、ベッドに問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada tempat tidur."
+Area Bed,枕,まくら,BANTAL,利用者が使いやすいように枕を整えます。,Atur bantal agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、枕に問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada bantal."
+Area Bed,オーバーテーブル,,MEJA MAKAN PASIEN,利用者が使いやすいようにオーバーテーブルを整えます。,Atur meja makan pasien agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、オーバーテーブルに問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada meja makan pasien."
+Area Bed,毛布,もうふ,SELIMUT,利用者が使いやすいように毛布を整えます。,Atur selimut agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、毛布に問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada selimut."
+Area Bed,シーツ,,SEPRAI,利用者が使いやすいようにシーツを整えます。,Atur seprai agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、シーツに問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada seprai."
+Area Bed,床頭台,しょうとうだい,MEJA SAMPING KECIL,利用者が使いやすいように床頭台を整えます。,Atur meja samping kecil agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、床頭台に問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada meja samping kecil."
+Area Bed,サイドレール,,PAGAR,利用者が使いやすいようにサイドレールを整えます。,Atur pagar agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、サイドレールに問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada pagar."
+Area Bed,ベッド柵,ベッドさく,PAGAR TEMPAT TIDUR,利用者が使いやすいようにベッド柵を整えます。,Atur pagar tempat tidur agar mudah digunakan oleh pengguna layanan.,利用者の安全のため、ベッド柵に問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada pagar tempat tidur."
+Area Bed,布団,ふとん,"KASUR, KASUR JEPANG",利用者が使いやすいように布団を整えます。,"Atur kasur, kasur jepang agar mudah digunakan oleh pengguna layanan.",利用者の安全のため、布団に問題がないか確認します。,"Demi keselamatan pengguna layanan, periksa apakah ada masalah pada kasur, kasur jepang."
+Alat Bantu Untuk Berpindah/Mobilitas,車椅子,くるまいす,KURSI RODA,移動介助の前に車椅子を準備します。,Siapkan kursi roda sebelum membantu perpindahan.,利用者を安全に移動させるため、車椅子を正しく使います。,Gunakan kursi roda dengan benar agar pengguna layanan dapat berpindah dengan aman.
+Alat Bantu Untuk Berpindah/Mobilitas,杖,つえ,TONGKAT BANTU JALAN,移動介助の前に杖を準備します。,Siapkan tongkat bantu jalan sebelum membantu perpindahan.,利用者を安全に移動させるため、杖を正しく使います。,Gunakan tongkat bantu jalan dengan benar agar pengguna layanan dapat berpindah dengan aman.
+Alat Bantu Untuk Berpindah/Mobilitas,歩行器,ほこうき,ALAT BANTU JALAN LANSIA,移動介助の前に歩行器を準備します。,Siapkan alat bantu jalan lansia sebelum membantu perpindahan.,利用者を安全に移動させるため、歩行器を正しく使います。,Gunakan alat bantu jalan lansia dengan benar agar pengguna layanan dapat berpindah dengan aman.
+Alat Bantu Untuk Berpindah/Mobilitas,ストレッチャー,,"STRETCHER, BRANKAR DARURAT",移動介助の前にストレッチャーを準備します。,"Siapkan stretcher, brankar darurat sebelum membantu perpindahan.",利用者を安全に移動させるため、ストレッチャーを正しく使います。,"Gunakan stretcher, brankar darurat dengan benar agar pengguna layanan dapat berpindah dengan aman."
+Alat Bantu Untuk Berpindah/Mobilitas,移動用リフト,いどうようリフト,"ALAT PEMINDAH, LIFT PASIEN",移動介助の前に移動用リフトを準備します。,"Siapkan alat pemindah, lift pasien sebelum membantu perpindahan.",利用者を安全に移動させるため、移動用リフトを正しく使います。,"Gunakan alat pemindah, lift pasien dengan benar agar pengguna layanan dapat berpindah dengan aman."
+Alat Bantu Untuk Berpindah/Mobilitas,スライディングボード,,PAPAN PENGGESER,移動介助の前にスライディングボードを準備します。,Siapkan papan penggeser sebelum membantu perpindahan.,利用者を安全に移動させるため、スライディングボードを正しく使います。,Gunakan papan penggeser dengan benar agar pengguna layanan dapat berpindah dengan aman.
+Alat Bantu Untuk Berpindah/Mobilitas,スライディングシート,,KAIN PENGGESER,移動介助の前にスライディングシートを準備します。,Siapkan kain penggeser sebelum membantu perpindahan.,利用者を安全に移動させるため、スライディングシートを正しく使います。,Gunakan kain penggeser dengan benar agar pengguna layanan dapat berpindah dengan aman.
+Ruang Makan & Alat Makan,テーブル,,MEJA,食事の前にテーブルを準備します。,Siapkan meja sebelum makan.,食事介助ではテーブルを安全に使います。,"Saat membantu makan, gunakan meja dengan aman."
+Ruang Makan & Alat Makan,椅子,いす,KURSI,食事の前に椅子を準備します。,Siapkan kursi sebelum makan.,食事介助では椅子を安全に使います。,"Saat membantu makan, gunakan kursi dengan aman."
+Ruang Makan & Alat Makan,茶碗,ちゃわん,MANGKUK NASI,食事の前に茶碗を準備します。,Siapkan mangkuk nasi sebelum makan.,食事介助では茶碗を安全に使います。,"Saat membantu makan, gunakan mangkuk nasi dengan aman."
+Ruang Makan & Alat Makan,吸い飲み,すいのみ,CANGKIR BERMONCONG,食事の前に吸い飲みを準備します。,Siapkan cangkir bermoncong sebelum makan.,食事介助では吸い飲みを安全に使います。,"Saat membantu makan, gunakan cangkir bermoncong dengan aman."
+Ruang Makan & Alat Makan,お椀,おわん,MANGKUK,食事の前にお椀を準備します。,Siapkan mangkuk sebelum makan.,食事介助ではお椀を安全に使います。,"Saat membantu makan, gunakan mangkuk dengan aman."
+Ruang Makan & Alat Makan,カップ,,CANGKIR (PLASTIC CUP WITH A HANDLE),食事の前にカップを準備します。,Siapkan cangkir (plastic cup with a handle) sebelum makan.,食事介助ではカップを安全に使います。,"Saat membantu makan, gunakan cangkir (plastic cup with a handle) dengan aman."
+Ruang Makan & Alat Makan,コップ,,GELAS (DRINKING CUP WITHOUT A HANDLE),食事の前にコップを準備します。,Siapkan gelas (drinking cup without a handle) sebelum makan.,食事介助ではコップを安全に使います。,"Saat membantu makan, gunakan gelas (drinking cup without a handle) dengan aman."
+Ruang Makan & Alat Makan,湯呑,ゆのみ,"CANGKIR (CAWAN), TEACUP WITHOUT A HANDLE",食事の前に湯呑を準備します。,"Siapkan cangkir (cawan), teacup without a handle sebelum makan.",食事介助では湯呑を安全に使います。,"Saat membantu makan, gunakan cangkir (cawan), teacup without a handle dengan aman."
+Ruang Makan & Alat Makan,皿,さら,PIRING,食事の前に皿を準備します。,Siapkan piring sebelum makan.,食事介助では皿を安全に使います。,"Saat membantu makan, gunakan piring dengan aman."
+Ruang Makan & Alat Makan,箸,はし,SUMPIT,食事の前に箸を準備します。,Siapkan sumpit sebelum makan.,食事介助では箸を安全に使います。,"Saat membantu makan, gunakan sumpit dengan aman."
+Ruang Makan & Alat Makan,箸置き,はしおき,TATAKAN SUMPIT,食事の前に箸置きを準備します。,Siapkan tatakan sumpit sebelum makan.,食事介助では箸置きを安全に使います。,"Saat membantu makan, gunakan tatakan sumpit dengan aman."
+Ruang Makan & Alat Makan,スプーン,,SENDOK,食事の前にスプーンを準備します。,Siapkan sendok sebelum makan.,食事介助ではスプーンを安全に使います。,"Saat membantu makan, gunakan sendok dengan aman."
+Ruang Makan & Alat Makan,フォーク,,GARPU,食事の前にフォークを準備します。,Siapkan garpu sebelum makan.,食事介助ではフォークを安全に使います。,"Saat membantu makan, gunakan garpu dengan aman."
+Ruang Makan & Alat Makan,炊飯器,すいはんき,RICE COOKER,食事の前に炊飯器を準備します。,Siapkan rice cooker sebelum makan.,食事介助では炊飯器を安全に使います。,"Saat membantu makan, gunakan rice cooker dengan aman."
+Ruang Makan & Alat Makan,杓文字,しゃもじ,CENTONG NASI,食事の前に杓文字を準備します。,Siapkan centong nasi sebelum makan.,食事介助では杓文字を安全に使います。,"Saat membantu makan, gunakan centong nasi dengan aman."
+Ruang Makan & Alat Makan,薬缶,やかん,TEKO AIR PANAS,食事の前に薬缶を準備します。,Siapkan teko air panas sebelum makan.,食事介助では薬缶を安全に使います。,"Saat membantu makan, gunakan teko air panas dengan aman."
+Ruang Makan & Alat Makan,鍋,なべ,PANCI,食事の前に鍋を準備します。,Siapkan panci sebelum makan.,食事介助では鍋を安全に使います。,"Saat membantu makan, gunakan panci dengan aman."
+Ruang Makan & Alat Makan,調味料,ちょうみりょう,BUMBU,食事の前に調味料を準備します。,Siapkan bumbu sebelum makan.,食事介助では調味料を安全に使います。,"Saat membantu makan, gunakan bumbu dengan aman."
+Ruang Makan & Alat Makan,エプロン,,"APRON, CELEMEK",食事の前にエプロンを準備します。,"Siapkan apron, celemek sebelum makan.",食事介助ではエプロンを安全に使います。,"Saat membantu makan, gunakan apron, celemek dengan aman."
+Ruang Makan & Alat Makan,食札,しょくさつ,LABEL MAKANAN,食事の前に利用者の食札を確認します。,"Sebelum makan, periksa label makanan pengguna layanan.",食札を見て、食事の内容を確認します。,Lihat label makanan untuk memastikan isi makanan.
+Ruang Makan & Alat Makan,主食,しゅしょく,MAKANAN POKOK,利用者に主食を提供します。,Sajikan makanan pokok kepada pengguna layanan.,主食の量が適切か確認します。,Periksa apakah jumlah makanan pokok sesuai.
+Ruang Makan & Alat Makan,主菜,しゅさい,HIDANGAN UTAMA,今日の主菜を確認します。,Periksa hidangan utama hari ini.,利用者に主菜を提供します。,Sajikan hidangan utama kepada pengguna layanan.
+Ruang Makan & Alat Makan,副菜 (副食),ふくさい (ふくさい),LAUK,副菜を主食と一緒に提供します。,Sajikan lauk bersama makanan pokok.,利用者が副菜を食べやすいように準備します。,Siapkan lauk agar mudah dimakan oleh pengguna layanan.
+Ruang Makan & Alat Makan,汁物,しるもの,SUP / HIDANGAN BERKUAH,汁物は熱すぎないか確認します。,Periksa apakah sup tidak terlalu panas.,利用者に汁物をゆっくり提供します。,Sajikan sup kepada pengguna layanan secara perlahan.
+Ruang Makan & Alat Makan,配膳車,はいぜんしゃ,KERETA MAKANAN,配膳車に食事を載せます。,Letakkan makanan di kereta makanan.,配膳車を安全に押して食堂へ運びます。,Dorong kereta makanan dengan aman menuju ruang makan.
+Ruang Makan & Alat Makan,ミキサー,,"MIXER, BLENDER",食事の前にミキサーを準備します。,"Siapkan mixer, blender sebelum makan.",食事介助ではミキサーを安全に使います。,"Saat membantu makan, gunakan mixer, blender dengan aman."
+Ruang Makan & Alat Makan,おしぼり,,LAP TANGAN BASAH,食事の前におしぼりを準備します。,Siapkan lap tangan basah sebelum makan.,食事介助ではおしぼりを安全に使います。,"Saat membantu makan, gunakan lap tangan basah dengan aman."
+Ruang Makan & Alat Makan,布巾,ふきん,SERBET,食事の前に布巾を準備します。,Siapkan serbet sebelum makan.,食事介助では布巾を安全に使います。,"Saat membantu makan, gunakan serbet dengan aman."
+Bagian Toilet,トイレ,,TOILET,トイレ介助の前にトイレを準備します。,Siapkan toilet sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるようにトイレを確認します。,Periksa toilet agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,トイレットペーパー,,TISU TOILET,トイレ介助の前にトイレットペーパーを準備します。,Siapkan tisu toilet sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるようにトイレットペーパーを確認します。,Periksa tisu toilet agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,手すり,てすり,PEGANGAN TANGAN / HANDRAIL,トイレ介助の前に手すりを準備します。,Siapkan pegangan tangan / handrail sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるように手すりを確認します。,Periksa pegangan tangan / handrail agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,便器,べんき,WC DUDUK,トイレ介助の前に便器を準備します。,Siapkan wc duduk sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるように便器を確認します。,Periksa wc duduk agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,便座,べんざ,DUDUKAN WC,トイレ介助の前に便座を準備します。,Siapkan dudukan wc sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるように便座を確認します。,Periksa dudukan wc agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,おむつ交換車,おむつこうかんしゃ,MEJA DORONG PENGGANTI POPOK,トイレ介助の前におむつ交換車を準備します。,Siapkan meja dorong pengganti popok sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるようにおむつ交換車を確認します。,Periksa meja dorong pengganti popok agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,汚物入れ,おぶついれ,TEMPAT SAMPAH WADAH KOTORAN,トイレ介助の前に汚物入れを準備します。,Siapkan tempat sampah wadah kotoran sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるように汚物入れを確認します。,Periksa tempat sampah wadah kotoran agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,シャワーボトル,,BOTOL MANDI,トイレ介助の前にシャワーボトルを準備します。,Siapkan botol mandi sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるようにシャワーボトルを確認します。,Periksa botol mandi agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,パッド,,PEMBALUT,トイレ介助の前にパッドを準備します。,Siapkan pembalut sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるようにパッドを確認します。,Periksa pembalut agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,紙おむつ,かみおむつ,POPOK SEKALI PAKAI,トイレ介助の前に紙おむつを準備します。,Siapkan popok sekali pakai sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるように紙おむつを確認します。,Periksa popok sekali pakai agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,尿器,にょうき,PISPOT. URINE BOTTLE,トイレ介助の前に尿器を準備します。,Siapkan pispot. urine bottle sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるように尿器を確認します。,Periksa pispot. urine bottle agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,ポータブルトイレ,,TOILET PORTABEL,トイレ介助の前にポータブルトイレを準備します。,Siapkan toilet portabel sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるようにポータブルトイレを確認します。,Periksa toilet portabel agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Toilet,ナースコール,,"ALAT PEMANGGIL PERAWAT, NURSE CALL",トイレ介助の前にナースコールを準備します。,Siapkan alat pemanggil perawat sebelum membantu pengguna layanan ke toilet.,利用者が安全に使えるようにナースコールを確認します。,Periksa alat pemanggil perawat agar dapat digunakan dengan aman oleh pengguna layanan.
+Bagian Pakaian,上着,うわぎ,PAKAIAN LUAR,着替えのために上着を準備します。,Siapkan pakaian luar untuk mengganti pakaian.,利用者が使いやすいように上着を整えます。,Atur pakaian luar agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,シャツ,,KEMEJA,着替えのためにシャツを準備します。,Siapkan kemeja untuk mengganti pakaian.,利用者が使いやすいようにシャツを整えます。,Atur kemeja agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,セーター,,SWETER,着替えのためにセーターを準備します。,Siapkan sweter untuk mengganti pakaian.,利用者が使いやすいようにセーターを整えます。,Atur sweter agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,パジャマ,,PIYAMA,着替えのためにパジャマを準備します。,Siapkan piyama untuk mengganti pakaian.,利用者が使いやすいようにパジャマを整えます。,Atur piyama agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,肌着シャツ,はだぎシャツ,KAOS DALAM,着替えのために肌着シャツを準備します。,Siapkan kaos dalam untuk mengganti pakaian.,利用者が使いやすいように肌着シャツを整えます。,Atur kaos dalam agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,浴衣,ゆかた,YUKATA,着替えのために浴衣を準備します。,Siapkan yukata untuk mengganti pakaian.,利用者が使いやすいように浴衣を整えます。,Atur yukata agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,パンツ,,CELANA DALAM,着替えのためにパンツを準備します。,Siapkan celana dalam untuk mengganti pakaian.,利用者が使いやすいようにパンツを整えます。,Atur celana dalam agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,靴,くつ,SEPATU,着替えのために靴を準備します。,Siapkan sepatu untuk mengganti pakaian.,利用者が使いやすいように靴を整えます。,Atur sepatu agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,靴下,くつした,KAUS KAKI,着替えのために靴下を準備します。,Siapkan kaus kaki untuk mengganti pakaian.,利用者が使いやすいように靴下を整えます。,Atur kaus kaki agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,ズボン,,CELANA PANJANG,着替えのためにズボンを準備します。,Siapkan celana panjang untuk mengganti pakaian.,利用者が使いやすいようにズボンを整えます。,Atur celana panjang agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,スカート,,ROK,着替えのためにスカートを準備します。,Siapkan rok untuk mengganti pakaian.,利用者が使いやすいようにスカートを整えます。,Atur rok agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,上ばき,うわばき,SEPATU DALAM RUANG,着替えのために上ばきを準備します。,Siapkan sepatu dalam ruang untuk mengganti pakaian.,利用者が使いやすいように上ばきを整えます。,Atur sepatu dalam ruang agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,スリッパ,,SANDAL RUMAH,着替えのためにスリッパを準備します。,Siapkan sandal rumah untuk mengganti pakaian.,利用者が使いやすいようにスリッパを整えます。,Atur sandal rumah agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,マフラー,,SYAL,着替えのためにマフラーを準備します。,Siapkan syal untuk mengganti pakaian.,利用者が使いやすいようにマフラーを整えます。,Atur syal agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,手袋,てぶくろ,SARUNG TANGAN,着替えのために手袋を準備します。,Siapkan sarung tangan untuk mengganti pakaian.,利用者が使いやすいように手袋を整えます。,Atur sarung tangan agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,ベルト,,IKAT PINGGANG,着替えのためにベルトを準備します。,Siapkan ikat pinggang untuk mengganti pakaian.,利用者が使いやすいようにベルトを整えます。,Atur ikat pinggang agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,ゴム,,KARET,着替えのためにゴムを準備します。,Siapkan karet untuk mengganti pakaian.,利用者が使いやすいようにゴムを整えます。,Atur karet agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,紐,ひも,TALI,着替えのために紐を準備します。,Siapkan tali untuk mengganti pakaian.,利用者が使いやすいように紐を整えます。,Atur tali agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,えり,,KERAH,着替えのためにえりを準備します。,Siapkan kerah untuk mengganti pakaian.,利用者が使いやすいようにえりを整えます。,Atur kerah agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,そで,,LENGAN,着替えのためにそでを準備します。,Siapkan lengan untuk mengganti pakaian.,利用者が使いやすいようにそでを整えます。,Atur lengan agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,そで口,そでぐち,MANSET / UJUNG LENGAN BAJU,着替えのためにそで口を準備します。,Siapkan manset / ujung lengan baju untuk mengganti pakaian.,利用者が使いやすいようにそで口を整えます。,Atur manset / ujung lengan baju agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,ボタン,,KANCING,着替えのためにボタンを準備します。,Siapkan kancing untuk mengganti pakaian.,利用者が使いやすいようにボタンを整えます。,Atur kancing agar mudah digunakan oleh pengguna layanan.
+Bagian Pakaian,ファスナー,,RITSLETING,着替えのためにファスナーを準備します。,Siapkan ritsleting untuk mengganti pakaian.,利用者が使いやすいようにファスナーを整えます。,Atur ritsleting agar mudah digunakan oleh pengguna layanan.
+Bagian Mandi dan Kebersihan,脱衣室,だついしつ,RUANG GANTI,入浴前に脱衣室を準備します。,Siapkan ruang ganti sebelum mandi.,入浴後、脱衣室を使って身だしなみを整えます。,"Setelah mandi, gunakan ruang ganti untuk merapikan diri."
+Bagian Mandi dan Kebersihan,バスタオル,,HANDUK MANDI,入浴前にバスタオルを準備します。,Siapkan handuk mandi sebelum mandi.,入浴後、バスタオルを使って身だしなみを整えます。,"Setelah mandi, gunakan handuk mandi untuk merapikan diri."
+Bagian Mandi dan Kebersihan,ドライヤー,,PENGERING RAMBUT,入浴前にドライヤーを準備します。,Siapkan pengering rambut sebelum mandi.,入浴後、ドライヤーを使って身だしなみを整えます。,"Setelah mandi, gunakan pengering rambut untuk merapikan diri."
+Bagian Mandi dan Kebersihan,シャンプー,,SAMPO,入浴前にシャンプーを準備します。,Siapkan sampo sebelum mandi.,入浴後、シャンプーを使って身だしなみを整えます。,"Setelah mandi, gunakan sampo untuk merapikan diri."
+Bagian Mandi dan Kebersihan,リンス,,KONDISIONER,入浴前にリンスを準備します。,Siapkan kondisioner sebelum mandi.,入浴後、リンスを使って身だしなみを整えます。,"Setelah mandi, gunakan kondisioner untuk merapikan diri."
+Bagian Mandi dan Kebersihan,鏡,かがみ,CERMIN,入浴前に鏡を準備します。,Siapkan cermin sebelum mandi.,入浴後、鏡を使って身だしなみを整えます。,"Setelah mandi, gunakan cermin untuk merapikan diri."
+Bagian Mandi dan Kebersihan,シャワー,,SHOWER,入浴前にシャワーを準備します。,Siapkan shower sebelum mandi.,入浴後、シャワーを使って身だしなみを整えます。,"Setelah mandi, gunakan shower untuk merapikan diri."
+Bagian Mandi dan Kebersihan,シャワーハット,,TOPI MANDI/KERAMAS,入浴前にシャワーハットを準備します。,Siapkan topi mandi/keramas sebelum mandi.,入浴後、シャワーハットを使って身だしなみを整えます。,"Setelah mandi, gunakan topi mandi/keramas untuk merapikan diri."
+Bagian Mandi dan Kebersihan,タオル,,HANDUK,入浴前にタオルを準備します。,Siapkan handuk sebelum mandi.,入浴後、タオルを使って身だしなみを整えます。,"Setelah mandi, gunakan handuk untuk merapikan diri."
+Bagian Mandi dan Kebersihan,バスマット,,KESET KAMAR MAND,入浴前にバスマットを準備します。,Siapkan keset kamar mand sebelum mandi.,入浴後、バスマットを使って身だしなみを整えます。,"Setelah mandi, gunakan keset kamar mand untuk merapikan diri."
+Bagian Mandi dan Kebersihan,洗面器,せんめんき,"BASKOM, BAK PLASTIK",入浴前に洗面器を準備します。,"Siapkan baskom, bak plastik sebelum mandi.",入浴後、洗面器を使って身だしなみを整えます。,"Setelah mandi, gunakan baskom, bak plastik untuk merapikan diri."
+Bagian Mandi dan Kebersihan,シャワーチェア,,KURSI MANDI,入浴前にシャワーチェアを準備します。,Siapkan kursi mandi sebelum mandi.,入浴後、シャワーチェアを使って身だしなみを整えます。,"Setelah mandi, gunakan kursi mandi untuk merapikan diri."
+Bagian Mandi dan Kebersihan,せっけん,,SABUN,入浴前にせっけんを準備します。,Siapkan sabun sebelum mandi.,入浴後、せっけんを使って身だしなみを整えます。,"Setelah mandi, gunakan sabun untuk merapikan diri."
+Bagian Mandi dan Kebersihan,浴そう,よくそう,BAK MANDI,入浴前に浴そうを準備します。,Siapkan bak mandi sebelum mandi.,入浴後、浴そうを使って身だしなみを整えます。,"Setelah mandi, gunakan bak mandi untuk merapikan diri."
+Bagian Mandi dan Kebersihan,浴室,よくしつ,KAMAR MANDI,入浴前に浴室を準備します。,Siapkan kamar mandi sebelum mandi.,入浴後、浴室を使って身だしなみを整えます。,"Setelah mandi, gunakan kamar mandi untuk merapikan diri."
+Bagian Mandi dan Kebersihan,歯ブラシ,はブラシ,SIKAT GIGI,入浴前に歯ブラシを準備します。,Siapkan sikat gigi sebelum mandi.,入浴後、歯ブラシを使って身だしなみを整えます。,"Setelah mandi, gunakan sikat gigi untuk merapikan diri."
+Bagian Mandi dan Kebersihan,歯磨き粉,はみがきこ,PASTA GIGI,入浴前に歯磨き粉を準備します。,Siapkan pasta gigi sebelum mandi.,入浴後、歯磨き粉を使って身だしなみを整えます。,"Setelah mandi, gunakan pasta gigi untuk merapikan diri."
+Bagian Mandi dan Kebersihan,シェーバー,,ALAT CUKUR,入浴前にシェーバーを準備します。,Siapkan alat cukur sebelum mandi.,入浴後、シェーバーを使って身だしなみを整えます。,"Setelah mandi, gunakan alat cukur untuk merapikan diri."
+Bagian Mandi dan Kebersihan,化粧水,けしょうすい,TONER,入浴前に化粧水を準備します。,Siapkan toner sebelum mandi.,入浴後、化粧水を使って身だしなみを整えます。,"Setelah mandi, gunakan toner untuk merapikan diri."
+Bagian Mandi dan Kebersihan,耳かき,みみかき,PEMBERSIH TELINGA,入浴前に耳かきを準備します。,Siapkan pembersih telinga sebelum mandi.,入浴後、耳かきを使って身だしなみを整えます。,"Setelah mandi, gunakan pembersih telinga untuk merapikan diri."
+Bagian Mandi dan Kebersihan,爪切り,つめきり,GUNTING KUKU,入浴前に爪切りを準備します。,Siapkan gunting kuku sebelum mandi.,入浴後、爪切りを使って身だしなみを整えます。,"Setelah mandi, gunakan gunting kuku untuk merapikan diri."
+Bagian Mandi dan Kebersihan,クリーム,,KRIM,入浴前にクリームを準備します。,Siapkan krim sebelum mandi.,入浴後、クリームを使って身だしなみを整えます。,"Setelah mandi, gunakan krim untuk merapikan diri."
+Bagian Mandi dan Kebersihan,ブラシ,,SIKAT (SISIR BRUSH),入浴前にブラシを準備します。,Siapkan sikat (sisir brush) sebelum mandi.,入浴後、ブラシを使って身だしなみを整えます。,"Setelah mandi, gunakan sikat (sisir brush) untuk merapikan diri."
+Bagian Mandi dan Kebersihan,くし,,SISIR,入浴前にくしを準備します。,Siapkan sisir sebelum mandi.,入浴後、くしを使って身だしなみを整えます。,"Setelah mandi, gunakan sisir untuk merapikan diri."
+Bagian Ruang dan Kamar Pasien,戸,と,PINTU,居室の戸を確認します。,Periksa pintu di kamar pengguna layanan.,利用者が快適に過ごせるように戸を整えます。,Atur pintu agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,窓,まど,JENDELA,居室の窓を確認します。,Periksa jendela di kamar pengguna layanan.,利用者が快適に過ごせるように窓を整えます。,Atur jendela agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,網戸,あみど,PINTU KASA KOTAK-KOTAK,居室の網戸を確認します。,Periksa pintu kasa kotak-kotak di kamar pengguna layanan.,利用者が快適に過ごせるように網戸を整えます。,Atur pintu kasa kotak-kotak agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,電気,でんき,"LISTRIK, LAMPU",部屋に入る前に電気をつけます。,Nyalakan lampu sebelum masuk kamar.,利用者が寝るときは電気を消します。,Matikan lampu saat pengguna layanan tidur.
+Bagian Ruang dan Kamar Pasien,カーテン,,TIRAI,居室のカーテンを確認します。,Periksa tirai di kamar pengguna layanan.,利用者が快適に過ごせるようにカーテンを整えます。,Atur tirai agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,テレビ,,TELEVISI,居室のテレビを確認します。,Periksa televisi di kamar pengguna layanan.,利用者が快適に過ごせるようにテレビを整えます。,Atur televisi agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,携帯電話,けいたいでんわ,TELEPON SELULER,利用者の携帯電話を充電します。,Isi daya telepon seluler pengguna layanan.,携帯電話を使う場所を確認します。,Periksa tempat yang sesuai untuk menggunakan telepon seluler.
+Bagian Ruang dan Kamar Pasien,タンス,,LEMARI LACI,居室のタンスを確認します。,Periksa lemari laci di kamar pengguna layanan.,利用者が快適に過ごせるようにタンスを整えます。,Atur lemari laci agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,ごみ箱,ごみばこ,TEMPAT SAMPAH,居室のごみ箱を確認します。,Periksa tempat sampah di kamar pengguna layanan.,利用者が快適に過ごせるようにごみ箱を整えます。,Atur tempat sampah agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,洗濯機,せんたくき,MESIN CUCI,居室の洗濯機を確認します。,Periksa mesin cuci di kamar pengguna layanan.,利用者が快適に過ごせるように洗濯機を整えます。,Atur mesin cuci agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,乾燥機,かんそうき,MESIN PENGERING,居室の乾燥機を確認します。,Periksa mesin pengering di kamar pengguna layanan.,利用者が快適に過ごせるように乾燥機を整えます。,Atur mesin pengering agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,ティッシュペーパー,,TISU,居室のティッシュペーパーを確認します。,Periksa tisu di kamar pengguna layanan.,利用者が快適に過ごせるようにティッシュペーパーを整えます。,Atur tisu agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,洗剤,せんざい,DETERGEN,居室の洗剤を確認します。,Periksa detergen di kamar pengguna layanan.,利用者が快適に過ごせるように洗剤を整えます。,Atur detergen agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,水道,すいどう,AIR KERAN,手を洗ったあと、水道の水を止めます。,"Setelah mencuci tangan, matikan keran air.",水道から水が出るか確認します。,Periksa apakah air keluar dari keran.
+Bagian Ruang dan Kamar Pasien,雑巾,ぞうきん,LAP,居室の雑巾を確認します。,Periksa lap di kamar pengguna layanan.,利用者が快適に過ごせるように雑巾を整えます。,Atur lap agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,バケツ,,EMBER,居室のバケツを確認します。,Periksa ember di kamar pengguna layanan.,利用者が快適に過ごせるようにバケツを整えます。,Atur ember agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,湯たんぽ,ゆたんぽ,BOTOL PENGHANGAT,居室の湯たんぽを確認します。,Periksa botol penghangat di kamar pengguna layanan.,利用者が快適に過ごせるように湯たんぽを整えます。,Atur botol penghangat agar pengguna layanan dapat merasa nyaman.
+Bagian Ruang dan Kamar Pasien,新聞,しんぶん,"SURAT KABAR, KORAN",朝、利用者に新聞を渡します。,"Pagi hari, berikan koran kepada pengguna layanan.",利用者は新聞を読んで過ごします。,Pengguna layanan menghabiskan waktu dengan membaca koran.
+Bagian Ruang dan Kamar Pasien,写真,しゃしん,FOTO,利用者の部屋に写真を飾ります。,Pasang foto di kamar pengguna layanan.,家族の写真を見ながら、利用者と話します。,Bicaralah dengan pengguna layanan sambil melihat foto keluarga.
+Bagian Keluarga,父,ちち,AYAH,利用者の父について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang ayah pengguna layanan.,必要なときは父に連絡して状況を説明します。,"Jika diperlukan, hubungi ayah untuk menjelaskan situasinya."
+Bagian Keluarga,母,はは,IBU,利用者の母について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang ibu pengguna layanan.,必要なときは母に連絡して状況を説明します。,"Jika diperlukan, hubungi ibu untuk menjelaskan situasinya."
+Bagian Keluarga,夫,おっと,SUAMI,利用者の夫について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang suami pengguna layanan.,必要なときは夫に連絡して状況を説明します。,"Jika diperlukan, hubungi suami untuk menjelaskan situasinya."
+Bagian Keluarga,妻,つま,ISTRI,利用者の妻について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang istri pengguna layanan.,必要なときは妻に連絡して状況を説明します。,"Jika diperlukan, hubungi istri untuk menjelaskan situasinya."
+Bagian Keluarga,息子,むすこ,ANAK LAKI-LAKI,利用者の息子について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang anak laki-laki pengguna layanan.,必要なときは息子に連絡して状況を説明します。,"Jika diperlukan, hubungi anak laki-laki untuk menjelaskan situasinya."
+Bagian Keluarga,娘,むすめ,ANAK PEREMPUAN,利用者の娘について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang anak perempuan pengguna layanan.,必要なときは娘に連絡して状況を説明します。,"Jika diperlukan, hubungi anak perempuan untuk menjelaskan situasinya."
+Bagian Keluarga,孫,まご,CUCU,利用者の孫について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang cucu pengguna layanan.,必要なときは孫に連絡して状況を説明します。,"Jika diperlukan, hubungi cucu untuk menjelaskan situasinya."
+Bagian Keluarga,兄,あに,KAKAK LAKI-LAKI,利用者の兄について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang kakak laki-laki pengguna layanan.,必要なときは兄に連絡して状況を説明します。,"Jika diperlukan, hubungi kakak laki-laki untuk menjelaskan situasinya."
+Bagian Keluarga,弟,おとうと,ADIK LAKI-LAKI,利用者の弟について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang adik laki-laki pengguna layanan.,必要なときは弟に連絡して状況を説明します。,"Jika diperlukan, hubungi adik laki-laki untuk menjelaskan situasinya."
+Bagian Keluarga,姉,あね,KAKAK PEREMPUAN,利用者の姉について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang kakak perempuan pengguna layanan.,必要なときは姉に連絡して状況を説明します。,"Jika diperlukan, hubungi kakak perempuan untuk menjelaskan situasinya."
+Bagian Keluarga,妹,いもうと,ADIK PEREMPUAN,利用者の妹について家族から話を聞きます。,Dengarkan informasi dari keluarga tentang adik perempuan pengguna layanan.,必要なときは妹に連絡して状況を説明します。,"Jika diperlukan, hubungi adik perempuan untuk menjelaskan situasinya."
+Bagian Pekerjaan,医師,いし,DOKTER,体調に変化があったら、医師に報告します。,"Jika kondisi tubuh berubah, laporkan kepada dokter.",医師から利用者の状態について説明を受けます。,Dapatkan penjelasan dari dokter mengenai kondisi pengguna layanan.
+Bagian Pekerjaan,看護師,かんごし,PERAWAT,体調に変化があったら、看護師に報告します。,"Jika kondisi tubuh berubah, laporkan kepada perawat.",看護師と相談して、利用者のケアを行います。,Lakukan perawatan pengguna layanan setelah berkonsultasi dengan perawat.
+Bagian Pekerjaan,介護福祉士,かいごふくしし,PERAWAT LANSIA BERSERTIFIKA,介護福祉士が利用者の食事介助を行います。,Pekerja perawatan lansia bersertifikat membantu pengguna layanan makan.,介護福祉士に利用者の状態について相談します。,Konsultasikan kondisi pengguna layanan kepada pekerja perawatan lansia bersertifikat.
+Bagian Pekerjaan,介護職員,かいごしょくいん,STAF PERAWAT LANSIA,介護職員は利用者の安全を確認します。,Staf perawatan lansia memeriksa keselamatan pengguna layanan.,介護職員同士で利用者の情報を共有します。,Staf perawatan lansia berbagi informasi tentang pengguna layanan.
+Bagian Pekerjaan,理学療法士,りがくりょうほうし,TERAPIS FISIK (PT),理学療法士と一緒に歩行訓練を行います。,Lakukan latihan berjalan bersama fisioterapis.,利用者の歩行について理学療法士に相談します。,Konsultasikan tentang kemampuan berjalan pengguna layanan kepada fisioterapis.
+Bagian Pekerjaan,作業療法士,さぎょうりょうほうし,TERAPIS KERJA (OT),作業療法士と一緒に日常生活の訓練を行います。,Lakukan latihan aktivitas sehari-hari bersama terapis okupasi.,手の動きについて作業療法士に相談します。,Konsultasikan pergerakan tangan kepada terapis okupasi.
+Bagian Pekerjaan,言語聴覚士,げんごちょうかくし,TERAPIS WICARA DAN BAHASA (ST),言語聴覚士が利用者の発音を確認します。,Terapis wicara dan bahasa memeriksa pengucapan pengguna layanan.,食べ物を飲み込むことについて言語聴覚士に相談します。,Konsultasikan masalah menelan makanan kepada terapis wicara dan bahasa.
+Bagian Pekerjaan,介護支援専門員,かいごしえんせんもんいん,CARE MANAGER / MANAJER PERAWATAN,介護支援専門員にケアプランについて相談します。,Konsultasikan rencana perawatan kepada care manager.,介護支援専門員とサービスの内容を確認します。,Periksa isi layanan bersama care manager.
+Bagian Pekerjaan,栄養士,えいようし,AHLI GIZI,栄養士に食事内容について相談します。,Konsultasikan menu makanan kepada ahli gizi.,栄養士が利用者に合った食事を考えます。,Ahli gizi memikirkan makanan yang sesuai untuk pengguna layanan.
+Bagian Pekerjaan,相談員,そうだんいん,KONSELOR,困ったことがあれば相談員に相談します。,"Jika ada masalah, konsultasikan kepada konselor.",相談員が利用者や家族の話を聞きます。,Konselor mendengarkan cerita pengguna layanan dan keluarganya.
+Bagian Pekerjaan,利用者,りようしゃ,PENGGUNA LAYANAN / KLIEN,介護職員は利用者の体調を確認します。,Pekerja perawatan memeriksa kondisi tubuh pengguna layanan.,利用者が安心して過ごせるように声をかけます。,Sapa pengguna layanan agar ia dapat merasa tenang.
+Bagian Pekerjaan,患者,かんじゃ,PASIEN,患者の体調を確認して、看護師に報告します。,Periksa kondisi pasien lalu laporkan kepada perawat.,患者が不安にならないように、ゆっくり説明します。,Jelaskan dengan perlahan agar pasien tidak merasa cemas.
+Tubuh Bagian Dalam,脳,のう,OTAK,検査で脳の状態を確認します。,Periksa kondisi otak melalui pemeriksaan.,脳に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada otak, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,気管,きかん,TRAKEA,検査で気管の状態を確認します。,Periksa kondisi trakea melalui pemeriksaan.,気管に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada trakea, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,気管支,きかんし,BRONKUS,検査で気管支の状態を確認します。,Periksa kondisi bronkus melalui pemeriksaan.,気管支に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada bronkus, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,食道,しょくどう,KERONGKONGAN,検査で食道の状態を確認します。,Periksa kondisi kerongkongan melalui pemeriksaan.,食道に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada kerongkongan, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,肺,はい,PARU-PARU,検査で肺の状態を確認します。,Periksa kondisi paru-paru melalui pemeriksaan.,肺に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada paru-paru, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,肝臓,かんぞう,HATI,検査で肝臓の状態を確認します。,Periksa kondisi hati melalui pemeriksaan.,肝臓に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada hati, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,腎臓,じんぞう,GINJAL,検査で腎臓の状態を確認します。,Periksa kondisi ginjal melalui pemeriksaan.,腎臓に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada ginjal, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,小腸,しょうちょう,USUS KECIL,検査で小腸の状態を確認します。,Periksa kondisi usus kecil melalui pemeriksaan.,小腸に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada usus kecil, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,大腸,だいちょう,USUS BESAR,検査で大腸の状態を確認します。,Periksa kondisi usus besar melalui pemeriksaan.,大腸に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada usus besar, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,膀胱,ぼうこう,KANDUNG KEMIH,検査で膀胱の状態を確認します。,Periksa kondisi kandung kemih melalui pemeriksaan.,膀胱に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada kandung kemih, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,直腸,ちょくちょう,REKTUM,検査で直腸の状態を確認します。,Periksa kondisi rektum melalui pemeriksaan.,直腸に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada rektum, laporkan kepada tenaga medis."
+Tubuh Bagian Dalam,肛門,こうもん,ANUS,検査で肛門の状態を確認します。,Periksa kondisi anus melalui pemeriksaan.,肛門に異常がある場合は、医療職へ報告します。,"Jika terdapat kelainan pada anus, laporkan kepada tenaga medis."
+Bagian Kesehatan,吐き気,はきけ,MUAL,利用者に吐き気があるか確認します。,Periksa apakah pengguna layanan merasa mual.,吐き気が続く場合は、看護師に報告します。,"Jika mual berlanjut, laporkan kepada perawat."
+Bagian Kesehatan,痰,たん,DAHAK,利用者に痰が出ていないか確認します。,Periksa apakah pengguna layanan mengeluarkan dahak.,痰が多い場合は、看護師に報告します。,"Jika dahak banyak, laporkan kepada perawat."
+Bagian Kesehatan,熱,ねつ,DEMAM,利用者に熱がないか確認します。,Periksa apakah pengguna layanan mengalami demam.,熱がある場合は、体温を測定します。,"Jika demam, ukur suhu tubuh."
+Bagian Kesehatan,咳,せき,BATUK,利用者に咳が出ていないか確認します。,Periksa apakah pengguna layanan mengalami batuk.,咳が続く場合は、看護師に報告します。,"Jika batuk berlanjut, laporkan kepada perawat."
+Bagian Kesehatan,痛み,いたみ,SAKIT,利用者に痛みがないか確認します。,Periksa apakah pengguna layanan merasa sakit.,痛みが強い場合は、すぐに看護師へ報告します。,"Jika rasa sakit berat, segera laporkan kepada perawat."
+Bagian Kesehatan,かゆみ,,GATAL,利用者のかゆみを確認します。,Periksa gatal pengguna layanan.,かゆみに変化があった場合は、すぐに報告します。,"Jika terjadi perubahan pada gatal, segera laporkan."
+Bagian Kesehatan,体温,たいおん,SUHU TUBUH,利用者の体温を測定します。,Ukur suhu tubuh pengguna layanan.,体温に変化があった場合は、記録します。,"Jika suhu tubuh berubah, catat hasilnya."
+Bagian Kesehatan,脈拍,みゃくはく,DENYUT NADI,利用者の脈拍を測定します。,Ukur denyut nadi pengguna layanan.,脈拍に異常がないか確認します。,Periksa apakah denyut nadi normal.
+Bagian Kesehatan,呼吸,こきゅう,PERNAPASAN,利用者の呼吸状態を確認します。,Periksa kondisi pernapasan pengguna layanan.,呼吸が苦しそうな場合は、すぐに看護師へ報告します。,"Jika pengguna layanan tampak kesulitan bernapas, segera laporkan kepada perawat."
+Bagian Kesehatan,測定,そくてい,PENGUKURAN,体温の測定を行います。,Lakukan pengukuran suhu tubuh.,測定した結果を記録します。,Catat hasil pengukuran.
+Bagian Kesehatan,体調,たいちょう,KONDISI TUBUH,毎朝、利用者の体調を確認します。,"Setiap pagi, periksa kondisi tubuh pengguna layanan.",体調が悪いときは、無理をさせません。,"Jika kondisi tubuh buruk, jangan memaksakan aktivitas."
+Bagian Kesehatan,表情,ひょうじょう,EKSPRESI,利用者の表情を見て、体調を確認します。,Perhatikan ekspresi pengguna layanan untuk memeriksa kondisinya.,いつもと表情が違う場合は、声をかけます。,"Jika ekspresinya berbeda dari biasanya, ajak berbicara."
+Bagian Kesehatan,下痢,げり,DIARE,利用者に下痢がないか確認します。,Periksa apakah pengguna layanan mengalami diare.,下痢が続く場合は、看護師に報告します。,"Jika diare berlanjut, laporkan kepada perawat."
+Bagian Kesehatan,便秘,べんぴ,SEMBELIT,利用者に便秘がないか確認します。,Periksa apakah pengguna layanan mengalami sembelit.,便秘が続く場合は、看護師に相談します。,"Jika sembelit berlanjut, konsultasikan kepada perawat."
+Bagian Kesehatan,失禁,しっきん,INKONTINENSIA,利用者に失禁があった場合は、すぐに対応します。,"Jika pengguna layanan mengalami inkontinensia, segera tangani.",失禁の有無を記録します。,Catat apakah terjadi inkontinensia.
+Bagian Kesehatan,やけど,,LUKA BAKAR,利用者のnanを確認します。,Periksa luka bakar pengguna layanan.,nanに変化があった場合は、すぐに報告します。,"Jika terjadi perubahan pada luka bakar, segera laporkan."
+Bagian Kesehatan,骨折,こっせつ,FRAKTUR,転倒した利用者に骨折がないか確認します。,Periksa apakah pengguna layanan yang jatuh mengalami fraktur.,骨折が疑われる場合は、すぐに医療職へ報告します。,"Jika dicurigai terjadi fraktur, segera laporkan kepada tenaga medis."
+Bagian Kesehatan,転倒,てんとう,TERJATUH,利用者が転倒しないように環境を整えます。,Atur lingkungan agar pengguna layanan tidak terjatuh.,転倒があった場合は、すぐに報告して記録します。,"Jika terjadi jatuh, segera laporkan dan catat."
+Posisi,仰臥位,あおむけ（ぎょうがい）,TELENTANG (POSISI SUPINASI),利用者を仰臥位の姿勢にします。,Atur pengguna layanan ke posisi telentang (posisi supinasi).,介助するときは仰臥位を確認して、安全に行います。,"Saat membantu, periksa posisi telentang (posisi supinasi) dan lakukan dengan aman."
+Posisi,腹臥位,うつぶせ（ふくがい）,TENGKURAP (POSISI PRONASI),利用者を腹臥位の姿勢にします。,Atur pengguna layanan ke posisi tengkurap (posisi pronasi).,介助するときは腹臥位を確認して、安全に行います。,"Saat membantu, periksa posisi tengkurap (posisi pronasi) dan lakukan dengan aman."
+Posisi,横向き (側臥位),よこむき（そくがい）,MENYAMPING (POSISI LATERAL),利用者を横向き (側臥位)の姿勢にします。,Atur pengguna layanan ke posisi menyamping (posisi lateral).,介助するときは横向き (側臥位)を確認して、安全に行います。,"Saat membantu, periksa posisi menyamping (posisi lateral) dan lakukan dengan aman."
+Posisi,体位,たいい,POSTUR,利用者の体位を整えます。,Atur posisi tubuh pengguna layanan.,長時間同じ体位にならないように注意します。,Jangan biarkan pengguna layanan berada dalam posisi yang sama terlalu lama.
+Posisi,重心,じゅうしん,TITIK PUSAT,立ち上がるときは重心を前に移します。,"Saat berdiri, pindahkan pusat gravitasi ke depan.",移乗介助では利用者の重心の位置を確認します。,"Saat membantu perpindahan, periksa posisi pusat gravitasi pengguna layanan."
+Posisi,座位,ざい,DUDUK,利用者を安定した座位にします。,Atur pengguna layanan dalam posisi duduk yang stabil.,座位を保てるか確認します。,Periksa apakah pengguna layanan dapat mempertahankan posisi duduk.
+Posisi,立位,りつい,BERDIRI,利用者を安全な立位にします。,Bantu pengguna layanan berdiri dengan aman.,立位が安定しているか確認します。,Periksa apakah posisi berdirinya stabil.
+Posisi,端座位,たんざい,DUDUK TEGAK,ベッドの端で端座位を取ってもらいます。,Minta pengguna layanan duduk tegak di tepi tempat tidur.,端座位が安定してから立ち上がります。,Berdirilah setelah posisi duduk tegak stabil.
+Posisi,患側,かんそく,SISI SAKIT,移乗するときは患側に注意します。,"Saat membantu perpindahan, perhatikan sisi yang sakit.",患側を支えながら、安全に介助します。,Bantu sambil menopang sisi yang sakit dengan aman.
+Posisi,健側,けんそく,SISI SEHAT,立ち上がるときは健側に手すりを持ってもらいます。,"Saat berdiri, minta pengguna layanan memegang pegangan dengan sisi yang sehat.",移乗介助では健側の力も利用します。,"Saat membantu perpindahan, manfaatkan kekuatan sisi yang sehat."
+Posisi,麻痺,まひ,LUMPUH,利用者に麻痺がないか確認します。,Periksa apakah pengguna layanan mengalami kelumpuhan.,麻痺がある側に無理な力をかけないようにします。,Jangan memberikan tekanan berlebihan pada sisi yang mengalami kelumpuhan.
+DLL,報告,ほうこく,MELAPORKAN,体調の変化があったら、すぐに報告します。,"Jika ada perubahan kondisi tubuh, segera laporkan.",事故が起きた場合は、責任者に報告します。,"Jika terjadi kecelakaan, laporkan kepada penanggung jawab."
+DLL,連絡,れんらく,BERKOMUNIKASI,家族に利用者の状況を連絡します。,Hubungi keluarga mengenai kondisi pengguna layanan.,必要なことがあれば、看護師に連絡します。,"Jika diperlukan, hubungi perawat."
+DLL,相談,そうだん,BERDISKUSI,困ったことがあれば、先輩に相談します。,"Jika ada masalah, konsultasikan kepada senior.",利用者のケアについて看護師に相談します。,Konsultasikan perawatan pengguna layanan kepada perawat.
+DLL,確認,かくにん,MENGECEK,介助の前に利用者の体調を確認します。,Periksa kondisi tubuh pengguna layanan sebelum membantu.,薬を渡す前に名前を確認します。,Periksa nama sebelum memberikan obat.
+DLL,指導,しどう,MEMBIMBING,先輩が新人職員に介助方法を指導します。,Senior mengajarkan metode bantuan kepada staf baru.,安全な移乗方法について指導を受けます。,Dapatkan bimbingan tentang metode perpindahan yang aman.
+DLL,助言,じょげん,MEMBERI SARAN,先輩から介助方法について助言をもらいます。,Dapatkan saran dari senior tentang metode bantuan.,利用者への声かけについて助言します。,Berikan saran mengenai cara berbicara kepada pengguna layanan.
+DLL,申し送り,もうしおくり,SERAH TERIMA,夜勤の職員から日勤の職員へ申し送りをします。,Lakukan serah terima dari staf shift malam kepada staf shift siang.,申し送りで利用者の体調の変化を共有します。,Bagikan perubahan kondisi pengguna layanan saat serah terima.
+DLL,記録,きろく,MENCATAT,介助の内容を記録します。,Catat tindakan perawatan yang dilakukan.,体調の変化があった場合は、すぐに記録します。,"Jika ada perubahan kondisi tubuh, segera catat."
+DLL,カラオケ,,KARAOKE,仕事ではnanを大切にします。,"Dalam pekerjaan, perhatikan karaoke.",必要なときはnanを行い、情報を共有します。,"Jika diperlukan, lakukan karaoke dan bagikan informasinya."
+DLL,トランプ,,KARTU REMI,仕事ではnanを大切にします。,"Dalam pekerjaan, perhatikan kartu remi.",必要なときはnanを行い、情報を共有します。,"Jika diperlukan, lakukan kartu remi dan bagikan informasinya."
+DLL,百人一首,ひゃくにんいっしゅ,PERMAINAN KARTU 100 PUISI,利用者と一緒に百人一首を楽しみます。,Nikmati permainan Hyakunin Isshu bersama pengguna layanan.,レクリエーションで百人一首を行います。,Adakan permainan Hyakunin Isshu sebagai kegiatan rekreasi.
+DLL,麻雀,まーじゃん,MAHYONG,利用者と一緒に麻雀を楽しみます。,Nikmati permainan mahjong bersama pengguna layanan.,レクリエーションで麻雀を行います。,Adakan permainan mahjong sebagai kegiatan rekreasi.
+DLL,習字,しゅうじ,KALIGRAF,利用者と一緒に習字をします。,Lakukan kaligrafi Jepang bersama pengguna layanan.,レクリエーションで習字を楽しみます。,Nikmati kaligrafi Jepang sebagai kegiatan rekreasi.
+DLL,記録ファイル,きろくファイル,BERKAS CATATAN,利用者の記録ファイルを確認します。,Periksa berkas catatan pengguna layanan.,必要な情報を記録ファイルに記入します。,Tulis informasi yang diperlukan ke dalam berkas catatan.
+DLL,棚,たな,RAK,棚にタオルを整理して置きます。,Rapikan dan letakkan handuk di rak.,棚が倒れないか確認します。,Periksa agar rak tidak roboh.
+DLL,鍵,かぎ,KUNCI,部屋の鍵を確認します。,Periksa kunci kamar.,鍵をなくさないように保管します。,Simpan kunci agar tidak hilang.
+DLL,名札,なふだ（ネームプレート）,PAPAN NAMA,仕事中は名札をつけます。,Kenakan papan nama saat bekerja.,名札を見て職員の名前を確認します。,Lihat papan nama untuk mengetahui nama staf.
+DLL,AED,,AED,仕事ではnanを大切にします。,"Dalam pekerjaan, perhatikan AED.",必要なときはnanを行い、情報を共有します。,"Jika diperlukan, lakukan AED dan bagikan informasinya."
+DLL,シフト,,SHIFT,仕事ではnanを大切にします。,"Dalam pekerjaan, perhatikan shift.",必要なときはnanを行い、情報を共有します。,"Jika diperlukan, lakukan shift dan bagikan informasinya."
+DLL,日勤,にっきん,SHIFT SIANG,今日は日勤を担当します。,Hari ini saya bertugas shift siang.,日勤の職員から申し送りを受けます。,Terima serah terima dari staf shift siang.
+DLL,夜勤,やきん,SHIFT MALAM,今日は夜勤を担当します。,Hari ini saya bertugas shift malam.,夜勤の前に利用者の情報を確認します。,"Sebelum shift malam, periksa informasi pengguna layanan."
+DLL,遅番,おそばん,SHIFT LAMBAT,今日は遅番を担当します。,Hari ini saya bertugas shift sore/akhir.,遅番の職員に申し送りをします。,Lakukan serah terima kepada staf shift sore/akhir.
+DLL,早番,はやばん,SHIFT CEPAT,明日は早番を担当します。,Besok saya bertugas shift pagi.,早番の職員が朝のケアを行います。,Staf shift pagi melakukan perawatan pagi.
+DLL,有給休暇,ゆうきゅうきゅうか,CUTI BERBAYAR,来月、有給休暇を取ります。,Bulan depan saya mengambil cuti berbayar.,有給休暇を申請する前にシフトを確認します。,"Sebelum mengajukan cuti berbayar, periksa jadwal shift."
+DLL,公休,こうきゅう,LIBUR RESMI,今日は公休です。,Hari ini saya libur resmi.,公休の日はゆっくり休みます。,"Pada hari libur resmi, saya beristirahat dengan baik."
+DLL,遅刻,ちこく,TERLAMBAT,遅刻しないように、早めに家を出ます。,Saya berangkat lebih awal agar tidak terlambat.,遅刻した場合は、すぐに職場へ連絡します。,"Jika terlambat, segera hubungi tempat kerja."
+DLL,早退,そうたい,PULANG LEBIH AWAL,体調が悪いので、今日は早退します。,"Karena kondisi tubuh kurang baik, hari ini saya pulang lebih awal.",早退するときは、責任者に報告します。,"Saat pulang lebih awal, laporkan kepada penanggung jawab."
+DLL,欠勤,けっきん,ABSEN,体調不良で欠勤するときは、職場に連絡します。,"Jika tidak masuk kerja karena kondisi tubuh kurang baik, hubungi tempat kerja.",欠勤した場合は、次の勤務日に申し送りを確認します。,"Jika tidak masuk kerja, periksa kembali informasi serah terima pada hari kerja berikutnya."
+DLL,病欠,びょうけつ,IZIN KARENA SAKIT,病欠するときは、職場に連絡します。,"Jika mengambil izin karena sakit, hubungi tempat kerja.",病欠の日数について責任者に確認します。,Konfirmasikan jumlah hari izin sakit kepada penanggung jawab.
