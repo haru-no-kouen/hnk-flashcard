@@ -632,6 +632,7 @@ button {
   margin: 0;
   font-size: 16px;
   line-height: 1.6;
+  white-space: pre-wrap; /* biar spasi kosong seperti "(     )" di csv tidak diciutkan jadi 1 spasi */
 }
 
 .quiz-options {
